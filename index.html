@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фильтр товаров</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="text-center mt-3">Фильтр товаров</h1>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Рост (см)</span>
+                    </div>
+                    <input type="number" id="height" class="form-control" placeholder="Введите рост">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Размер обуви</span>
+                    </div>
+                    <input type="number" id="shoe-size" class="form-control" placeholder="Введите размер обуви">
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button id="filter-btn" class="btn btn-primary">Фильтровать товары</button>
+        </div>
+        <div id="result-container" class="row" class="mb-4">
+            
+            <!-- Карточки товаров -->
+        </div>
+    </div>
+   
+    <script src="main.js"></script>
+</body>
+</html>

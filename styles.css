@@ -1,0 +1,82 @@
+
+body {
+    background-color: #f0f8e4; /* Фон страницы */
+    color: #333; /* Цвет текста */
+}
+
+.container {
+    background-color: #fff; /* контейнер */
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-heading h2 {
+    color: #43a047; /* Цвет текста надписи "Подходящие товары" */
+}
+
+.product-card {
+    background-color: #fff; /* Фон карточек товаров */
+    border: 1px solid #ddd; /* Граница карточек товаров */
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.btn-primary {
+    background-color: #43a047; /*кнопка "Фильтровать товары" */
+    border-color: #43a047; 
+}
+
+.btn-primary:hover {
+    background-color: #2e7d32; 
+    border-color: #2e7d32;
+}
+
+.input-group-text {
+    background-color: #fff; /*инпуты */
+    border-color: #ddd; 
+}
+
+.input-group-text:hover {
+    background-color: #f5f5f5; /*инпуты при наведении */
+    border-color: #ccc; 
+}
+
+
+.card {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card-header {
+    background-color: #82be86;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
